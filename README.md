@@ -93,7 +93,7 @@
 ### Services
 - **SendGrid**: For sending transactional emails.
 - **Twilio**: For SMS notifications.
-- **Algolia**: For search functionality.
+- **Typesense**: For search functionality.
 
 # Example Architecture
 
@@ -171,7 +171,7 @@ graph TD
     D -->|Track User Interactions| K[Google Analytics]
     A -->|Make Payment| L[Stripe]
     D -->|Send Notifications| M[SendGrid/Twilio]
-    D -->|Search| N[Algolia]
+    D -->|Search| N[Typesense]
     A -->|Interact on Smart TV| O[Roku SDK/Tizen Studio/LG WebOS SDK]
 ```
 
