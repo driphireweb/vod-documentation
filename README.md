@@ -7,7 +7,7 @@
 ### Technologies
 - **Vue.js**: For building the web frontend.
 - **Vue Router**: For client-side routing.
-- **Vuex**: For state management.
+- **Pinia**: For state management.
 - **Axios**: For making HTTP requests.
 
 ### Tools
@@ -100,7 +100,7 @@
 ## Frontend (Vue.js)
 - **Vue.js**: Main framework.
 - **Vue Router**: Routing.
-- **Vuex**: State management.
+- **Pinia**: State management.
 - **Axios**: HTTP requests.
 - **Firebase Hosting**: Hosting the frontend.
 
